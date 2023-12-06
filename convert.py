@@ -71,16 +71,25 @@ if __name__ == "__main__":
                         "title": previous_doc_path.page_title 
                     }
                 
+                # if i < len(all_paths) - 1:
+                #     goNext = 1
+                #     next_doc_path = DocPath(all_paths[i + goNext])
+                #     while not next_doc_path.is_md:
+                #         goNext += 1
+                #         next_doc_path = DocPath(all_paths[i + goNext])
+                #     next_md = {
+                #         "path": next_doc_path.abs_url,
+                #         "title": next_doc_path.page_title
+                #     }
+                
                 if i < len(all_paths) - 1:
                     goNext = 1
-                    next_doc_path = DocPath(all_paths[i + goNext])
-                    while not next_doc_path.is_md:
-                        goNext += 1
+                    while i + goNext < len(all_paths):
                         next_doc_path = DocPath(all_paths[i + goNext])
-                    next_md = {
-                        "path": next_doc_path.abs_url,
-                        "title": next_doc_path.page_title
-                    }
+                        if next_doc_path.is_md:
+                            break
+                        goNext += 1
+                    next_md = {"path": next_doc_path.abs_url, "title": next_doc_path.page_title}
                     
                 section_count += 1
 
