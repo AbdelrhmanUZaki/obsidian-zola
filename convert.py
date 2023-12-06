@@ -89,8 +89,12 @@ if __name__ == "__main__":
                         if next_doc_path.is_md:
                             break
                         goNext += 1
-                    next_md = {"path": next_doc_path.abs_url, "title": next_doc_path.page_title}
-                    
+
+                    if next_doc_path.is_md:
+                        next_md = {"path": next_doc_path.abs_url, "title": next_doc_path.page_title}
+                    else:
+                        next_md = {"path": None, "title": None}
+
                 section_count += 1
 
                 content = [
