@@ -1,4 +1,4 @@
-Swipe up for English
+#### Swipe up for English
 # السلام عليكم ورحمة الله وبركاته
 
 ### الأداة فيها تعديلات @rockmanvnx6 جزاه الله خيرا، وعدلت أنا بعض التعديلات
@@ -16,7 +16,7 @@ Swipe up for English
 - كل عنصر في الموقع يكون له الـ dir='auto'
 لإن الوضع الحالي إن اتجاه الصفحة بيحدد حسب العنوان، فلو كان العنوان بالانجليزية لكن أردت أن أكتب جملة أو شيء ما بالعربية، ستكون بنفس اتجاه الصفحة، الاتجاه الخاطئ في هذه اللحظة `اليسار لليمين`
 
-####
+#### English
 # May the peace, blessings, and mercy of God be upon you
 
 ### The tool has @rockmanvnx6's modifications, may God reward him, and I made some modifications
