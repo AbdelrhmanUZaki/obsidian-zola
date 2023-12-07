@@ -1,4 +1,4 @@
-swap up alittle for English 
+Swipe up for English
 # السلام عليكم ورحمة الله وبركاته
 
 ### الأداة فيها تعديلات @rockmanvnx6 جزاه الله خيرا، وعدلت أنا بعض التعديلات
@@ -33,6 +33,8 @@ Example: If the content and main content are in Arabic or any `rtl lang`, but yo
 ### What do I want to add?
 - [ ] Every element on the site has the dir='auto'
 because the current situation is that the direction of the page is determined by the title. If the title was in English but I wanted to write a sentence or something in Arabic, it would be in the same direction as the page, the wrong direction at this moment. Left to right`
+
+#### <a href="https://github.com/ppeetteerrs/obsidian-zola#setup" target="_blank">خطوات الاستخدام - How to use</a>
 
 The end.
 
