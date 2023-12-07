@@ -1,4 +1,42 @@
+swap up alittle for English 
+# السلام عليكم ورحمة الله وبركاته
 
+### الأداة فيها تعديلات @rockmanvnx6 جزاه الله خيرا، وعدلت أنا بعض التعديلات
+
+1. أضفت `dir='auto'` لملف `base.html` كي ينقلب اتجاه الصفحة من `اليمين لليسار` لـ `اليسار لليمين` أو العكس بحسب اللغة،  حيث أن  مثلا العربية لا تستطيع قراءتها إن كانت مكتوبة من `اليسار لليمين`
+2. الـ footer أفرغته، حتى يسهل على من يريد استخدام الأداة أن يستخدم فقط ملف ال toml لوضع الـ footer الخاص به إن أراد
+3. ألغيت أن يتم عمل uppercase لأسماء الفولدرات في الـ sidebar كي تكون أسهل في القراءة
+4. أضفت زر الـ `CD` 'Change Direction' في أعلى الصفحة في الـ navbar حتى يسهل عكس اتجاه الصفحة من `اليمين لليسار` لـ `اليسار لليمين` والعكس حسب الحاجة
+مثال: في حالة كان المحتوى والكلام الأساسي بالعربي لكن عندك بعض الفولدرات باللغة الانجليزية، فسيكون من الصعب قراءة أسماء الفولدرات بهذا الاتجاه `اليمين لليسار`، لذا فقط اضغط على الزر `CD` أعلى الشاشة.
+5. أزلت أيقونة الفولدر من أمام الفولدرات التي تكون داخل الفولدرات الأكبر في الـ Sidebar
+6. داخل ملف الـ converter.py استخدمت ChatGPT لتعديل الكود لإنه كان بيحدث خطأ لما أرفع ملف ليس .md
+<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="500" height="600">
+
+### ما أريد إضافته؟
+- [ ] كل عنصر في الموقع يكون له الـ dir='auto'
+لإن الوضع الحالي إن اتجاه الصفحة بيحدد حسب العنوان، فلو كان العنوان بالانجليزية لكن أردت أن أكتب جملة أو شيء ما بالعربية، ستكون بنفس اتجاه الصفحة، الاتجاه الخاطئ في هذه اللحظة `اليسار لليمين`
+
+####
+# May the peace, blessings, and mercy of God be upon you
+
+### The tool has @rockmanvnx6's modifications, may God reward him, and I made some modifications
+
+1. Added `dir='auto'` to the `base.html` file so that the page direction flips from `right to left` to `left to right` or vice versa depending on the language, since `Arabic, Hebrew, Persian, Urdu, Kashmiri, Pashto, Uighur, Sorani Kurdish, and Sindhi` cannot be read if it is written from `left to right`
+2. Removed the footer from home page, so that it is easy for anyone who wants to use the tool to just use the toml file to put his own footer if he wants.
+3. Canceled the uppercase for folder names in the sidebar so that they are easier to read
+4. Added the `CD` button to `Change Direction` at the top of the page in the navbar so that it is easy to reverse the direction of the page from `right to left` to `left to right` and vice versa as needed.
+Example: If the content and main content are in Arabic or any `rtl lang`, but you have some folders in English, it will be difficult to read the folder and subfolders/files names in current direction `right to left`, so just press the `CD` button at the top of the screen.
+5. Removed the folder icon in front of the folders that are inside the larger folders in the Sidebar
+6. Inside the converter.py file, I used ChatGPT to modify the code because an error occurred when I uploaded a file that was not .md.
+<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="500" height="600">
+
+### What do I want to add?
+- [ ] Every element on the site has the dir='auto'
+because the current situation is that the direction of the page is determined by the title. If the title was in English but I wanted to write a sentence or something in Arabic, it would be in the same direction as the page, the wrong direction at this moment. Left to right`
+
+The end.
+
+---
 Live: [https://swe.auspham.dev/](https://swe.auspham.dev/)
 
 # This fork has
