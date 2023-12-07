@@ -10,10 +10,10 @@ Swipe up for English
 مثال: في حالة كان المحتوى والكلام الأساسي بالعربي لكن عندك بعض الفولدرات باللغة الانجليزية، فسيكون من الصعب قراءة أسماء الفولدرات بهذا الاتجاه `اليمين لليسار`، لذا فقط اضغط على الزر `CD` أعلى الشاشة.
 5. أزلت أيقونة الفولدر من أمام الفولدرات التي تكون داخل الفولدرات الأكبر في الـ Sidebar
 6. داخل ملف الـ converter.py استخدمت ChatGPT لتعديل الكود لإنه كان بيحدث خطأ لما أرفع ملف ليس .md
-<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="500" height="600">
+<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="1280" height="660">
 
 ### ما أريد إضافته؟
-- [ ] كل عنصر في الموقع يكون له الـ dir='auto'
+- كل عنصر في الموقع يكون له الـ dir='auto'
 لإن الوضع الحالي إن اتجاه الصفحة بيحدد حسب العنوان، فلو كان العنوان بالانجليزية لكن أردت أن أكتب جملة أو شيء ما بالعربية، ستكون بنفس اتجاه الصفحة، الاتجاه الخاطئ في هذه اللحظة `اليسار لليمين`
 
 ####
@@ -28,7 +28,6 @@ Swipe up for English
 Example: If the content and main content are in Arabic or any `rtl lang`, but you have some folders in English, it will be difficult to read the folder and subfolders/files names in current direction `right to left`, so just press the `CD` button at the top of the screen.
 5. Removed the folder icon in front of the folders that are inside the larger folders in the Sidebar
 6. Inside the converter.py file, I used ChatGPT to modify the code because an error occurred when I uploaded a file that was not .md.
-<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="1280" height="660">
 
 ### What do I want to add?
 - [ ] Every element on the site has the dir='auto'
