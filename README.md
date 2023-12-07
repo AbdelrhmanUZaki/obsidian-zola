@@ -28,7 +28,7 @@ Swipe up for English
 Example: If the content and main content are in Arabic or any `rtl lang`, but you have some folders in English, it will be difficult to read the folder and subfolders/files names in current direction `right to left`, so just press the `CD` button at the top of the screen.
 5. Removed the folder icon in front of the folders that are inside the larger folders in the Sidebar
 6. Inside the converter.py file, I used ChatGPT to modify the code because an error occurred when I uploaded a file that was not .md.
-<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="500" height="600">
+<img src="README.asset/solve_converter.jpg" alt="converter.py img" width="660" height="1280">
 
 ### What do I want to add?
 - [ ] Every element on the site has the dir='auto'
